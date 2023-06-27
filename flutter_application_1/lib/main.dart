@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
+=======
+void main() {
+  runApp(const MyApp());
+}
+
+>>>>>>> 7d68b8d1e9601dbea84e964619d8e9e36256a987
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -13,6 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+<<<<<<< HEAD
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
@@ -28,6 +36,9 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
+=======
+
+>>>>>>> 7d68b8d1e9601dbea84e964619d8e9e36256a987
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
@@ -123,3 +134,8 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 35f46e624aeea674e1398fcbc433ae19944a0f67
+>>>>>>> 7d68b8d1e9601dbea84e964619d8e9e36256a987
